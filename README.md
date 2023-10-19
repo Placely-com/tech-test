@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Placely tech test
 
-## Getting Started
+This is a NextJS app. The objective of the test is to write component(s) to render a menu.
 
-First, run the development server:
+This test is designed to be completed in 1 hour. You should not spend too much time trying to style the menu; some indicatino of how you would approach the styling is sufficient.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Instructions
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clone this repository
+2. Work to complete this page: [src/app/menu/page.tsx]
+3. The ultimate objective is to render a menu that's returned by the mock api file: [src/app/menu/api3.ts]. If it helps, you can start with __api.ts__ and __api2.ts__ which are simpler versions of the menu.
+4. __IMPORTANT__ please don't commit and push your changes straight into the __main__ branch. Instead, zip-up your work and send it to me directly. Please include instructions and notes about your solution, including how to run the app on a local environment.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### What we test for
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- clean code and organisation
+- your approach to styling
+- some consideration for testing (if you have time)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
